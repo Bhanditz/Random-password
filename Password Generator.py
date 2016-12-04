@@ -11,7 +11,6 @@ def main():
     randomSymbol = rs()
     #random number
     number = random.randint(0,9)
-    
 
     strong_weak = int(input('How strong do you want your password to be? 1,2,3,4? 4 being stong and 1 being  weak: '))
 
@@ -28,7 +27,6 @@ def main():
         strong3 = str(strong3)
         print('Your password is:')
         print (strong3)
-        
 
     elif strong_weak == 4:
         strong4 = password4(randomCap,randomLower,randomSymbol,number)
