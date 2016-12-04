@@ -119,12 +119,4 @@ def password4(randomCap,randomLower,randomSymbol,number):
     return password
     
     
-        
-
-
-
-    
-
-
-
 main()
